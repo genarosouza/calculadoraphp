@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
+/* Container principal */
+.calculadora {
+    width: 380px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Título */
+.nomecalculadora h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Inputs */
+.n1,
+.n2 {
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.n1:focus,
+.n2:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Operadores */
+.operadores {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operadores label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: #374151;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    accent-color: #2563eb;
+}
+
+/* Botão */
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* Resultado */
+.resultado {
+    padding: 15px;
+    border-radius: 10px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111827;
+    min-height: 45px;
+}
