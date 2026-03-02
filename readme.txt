@@ -1,20 +1,9 @@
-# Calculadora PHP
+# Calculadora PHP 
 
-Projeto simples de calculadora desenvolvida em PHP com HTML e CSS moderno.
+#Projeto simples de calculadora desenvolvido em PHP com HTML e CSS moderno
 
-## Funcionalidades
+# Funcionalidades - Soma - Subterrâneo - Multiplicação - Divisão (com tratamento de divisão por zero)
 
-- Soma
-- Subtração
-- Multiplicação
-- Divisão (com tratamento de divisão por zero)
+# Tecnologias utilizadas - PHP - HTML5 - CSS3 
 
-## Tecnologias utilizadas
-
-- PHP
-- HTML5
-- CSS3
-
-## Preview
-
-Projeto focado em organização de código e layout clean.
+# Pré-visualização Projeto focado em organização de código e layout limpo.
